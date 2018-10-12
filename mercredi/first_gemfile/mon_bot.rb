@@ -1,6 +1,7 @@
  # ligne très importante qui appelle la gem. Sans elle, le programme ne saura pas appeler Twitter
 require 'dotenv'
 require 'twitter'
+require 'pry'
 Dotenv.load
 # quelques lignes qui enregistrent les clés d'APIs
 client = Twitter::REST::Client.new do |config|
